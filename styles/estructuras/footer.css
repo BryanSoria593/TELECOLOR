@@ -1,0 +1,110 @@
+.div__msg{
+    margin: 0 auto;
+    background-color: white;
+    width: 70%;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.div__msg p{
+    text-align: center;
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: #212121;
+    
+}
+.content{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.content > div{
+    width: 350px;   
+}
+.conetent-menu ul{
+    color: white;
+}
+.conetent-menu ul li {
+    border-bottom: 1px solid rgb(116, 116, 116);
+}
+.conetent-menu ul li a{
+    text-decoration: none;
+    color: #37bcf9;
+}
+.conetent-menu ul li:hover a{
+    padding-left: 20px;
+    color: white;
+    width: 100%;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.content__info-redes{
+    height: 50%;
+}
+.content__info-copyrigth{
+    height: 50%;
+}
+
+.content__info-redes ul{
+    width: 100%;
+    display: flex;
+    padding-right: 30px;
+    justify-content:center;
+}
+.content__info-redes ul li{
+    font-size: 35px;
+    list-style: none;
+    color: white;
+    margin: 0 5%;
+}
+
+.content__info-copyrigth > div{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.content__info-copyrigth > div p{
+    margin:auto 0;
+    color: black;
+}
+.content__info-copyrigth > div img{
+    width: 80px;
+    height: 60px;
+}
+.location{
+    text-align: center;
+}
+.location iframe{
+    width: 80%;
+    border-radius: 5px;
+    border: 3px solid white;
+    box-shadow: 0px 0px 5px gray;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.fa-facebook:hover{
+    color: #0C88EF;
+}
+.fa-tiktok:hover{
+    color: #25F4EE;
+} 
+.fa-instagram:hover{
+    color: #8D35A5;
+  }
+ .fa-whatsapp:hover{
+    color: #57F773;
+  }
