@@ -1,9 +1,133 @@
-.lala{
+/*INICIO DE CENTRAR IMÁGENES DEL SLIDER*/
+.slider div img{
     width: 100%;
-    height: 1000%;
+    height: 100%;  
 }
-.container{
+.slider div{
+    width: 100% !important;
+ 
+}
+.bx-wrapper{  
+    background-color: aqua;
+    border: none !important; 
+}
+.bx-wrapper .bx-pager{
+    background-color: #433F99 !important;
+    text-align: end !important;
+}
+/*FIN DE CENTRAR IMÁGENES DEL SLIDER*/
+
+/*INICIO DE CSS GRID*/
+.contenedor{
+    margin: 1% 2% 0 1%;
+    display: grid;
+    grid-row-gap: 0;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "slider       slider      slider      slider       aside"
+                         "slider       slider      slider      slider       aside"
+                         "garantia     garantia    garantia    garantia     aside";
+}
+.bx-wrapper{
+    grid-area: slider;
+    max-width: 100% !important;
+}
+
+.bx-wrapper .bx-pager-item{
+    margin-bottom: 10px;
+}
+.bx-pager-item{
+    margin-right: 5px;
+}
+
+/*FIN DE CSS GRID*/
+
+/*INICIO DE ESTILOS DEL ASIDE*/
+
+/* .aside__msgBienvenida{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.aside__msgBienvenida{
+    font-weight: bold;
+}
+.aside__botones-inicio,.aside__botones-registrar{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+} */
+.btn-iniciar{ 
+    box-shadow: 0 5px 5px #ccc;
+}
+.btn-registrar{
+    background: linear-gradient(180deg, #2c4481 0, #181733) !important; 
+    box-shadow: 0 5px 5px black;
+    color: white !important;
+}
+.btn-iniciar,.btn-registrar{
+    font-weight: bold !important;
+}
+
+    /*FIN DE ESTILOS DE LISTA*/
+/*INICIO DE ESTILOS DEL ASIDE*/
+
+.aside{
+    overflow: hidden;
+    
+    grid-area: aside;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.aside div{
+    margin-bottom: 1px;
     width: 100%;
-    height: 400px;
+    height: 25%;
+}
+.aside div img{
+    width: 100%;
+    height: 100%;
+}
+.anuncios{
+    grid-area: anuncios;
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+/*FIN DE ESTILOS DEL ASIDE*/
+
+
+/* INICIO DE ESTILOS DE LA GARANTIA */
+.garantia{
+    grid-area: garantia;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.garantia__informacion{
+    width: 250px;
+    height: auto;  
+    text-align: center;
     
 }
+.garantia__informacion-logo{
+    margin-bottom: 7px;
+}
+.garantia__informacion-logo i{
+    font-size: 30px;
+}
+.garantia__informacion-titulo{
+    height: 35%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.garantia__informacion-descripcion{
+    color: #A7A7A7;
+}
+/* FIN DE ESTILOS DE LA GARANTIA */
+

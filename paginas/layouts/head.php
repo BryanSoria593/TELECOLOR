@@ -5,11 +5,11 @@
     <link rel="icon" href="../../img/LOGO.png">  
     <link rel="stylesheet" href="../../bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../styles/normalize.css">
-    <link rel="stylesheet" href="../../styles/estructuras/menuu.css">
+    <link rel="stylesheet" href="../../styles/estructuras/menu.css">
     <link rel="stylesheet" href="../../styles/estructuras/footer.css">
     <link rel="stylesheet" href="../../fontawesome/css/all.min.css">
     <script type="text/javascript" src="../../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../../js-jquery/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="../../js/menu.js"></script>
+    <script src="../../js/menu.js"></script>
+    
     
 

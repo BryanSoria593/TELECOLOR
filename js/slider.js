@@ -1,10 +1,17 @@
 $(document).ready(function (params) {
-    $('.bxslider').bxSlider({
-    
+    $('.slider').bxSlider({
       mode: 'fade',
+      auto: true,
       captions: true,
-      slideWidth: 600
+      slideWidth: 1000,
+      pause: 10000,
+      responsive: true,
+      pager: true
+
+   
     });
-    
+
 })
 
+
+ 

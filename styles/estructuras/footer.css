@@ -14,10 +14,10 @@
     text-align: center;
 }
 .footer{
-    position: fixed;
     width: 100%;
-    bottom: 0px;
+    height: 240px;
     background-color: #212121;
+    bottom: 0; 
     
 }
 .content{
@@ -108,3 +108,13 @@
  .fa-whatsapp:hover{
     color: #57F773;
   }
+  @media(max-width: 1049px){
+    .footer{
+        height: 450px;
+    }
+}
+@media(max-width: 700px){
+    .footer{
+        height: 655px;
+    }
+}
