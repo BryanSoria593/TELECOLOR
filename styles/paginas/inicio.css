@@ -1,0 +1,290 @@
+/*INICIO DE CENTRAR IMÁGENES DEL SLIDER*/
+.slider div img{
+    width: 100%;
+    height: 100%;  
+}
+.slider div{
+    width: 100% !important;
+}
+.bx-wrapper{  
+    background-color: aqua;
+    border: none !important; 
+    margin-bottom: 38px !important;
+}
+.bx-wrapper .bx-pager{
+    background-color: #433F99 !important;
+    text-align: end !important;
+}
+/*FIN DE CENTRAR IMÁGENES DEL SLIDER*/
+
+/*INICIO DE CSS GRID*/
+.contenedor{
+    margin: 1% 2% 0 1%;
+    display: grid;
+    grid-row-gap: 0;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "slider       slider      slider      slider       aside"
+                         "slider       slider      slider      slider       aside"
+                         "garantia     garantia    garantia    garantia     aside"
+                         "productos     productos    productos    productos     productos"
+                         ;
+}
+.bx-wrapper{
+    grid-area: slider;
+    max-width: 100% !important;
+}
+.bs-pager{
+    padding-top: 12px;
+}
+.bx-wrapper .bx-pager-item{
+    margin-bottom: 10px;
+}
+.bx-pager-item{
+    margin-right: 5px;
+}
+.btn-iniciar{ 
+    box-shadow: 0 5px 5px #ccc;
+}
+.btn-registrar{
+    background: linear-gradient(180deg, #2c4481 0, #181733) !important; 
+    box-shadow: 0 5px 5px black;
+    color: white !important;
+}
+.btn-iniciar,.btn-registrar{
+    font-weight: bold !important;
+}
+
+    /*FIN DE ESTILOS DE LISTA*/
+/*INICIO DE ESTILOS DEL ASIDE*/
+
+.aside{
+    overflow: hidden;
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+}
+.aside div{
+    margin-bottom: 1px;
+    width: 100%;
+    height: 25%;
+}
+.aside div img{
+    width: 100%;
+    height: 100%;
+}
+.anuncios{
+    grid-area: anuncios;
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+/*FIN DE ESTILOS DEL ASIDE*/
+/* INICIO DE ESTILOS DE LA GARANTIA */
+.garantia{
+    grid-area: garantia;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 15px;
+}
+.garantia__informacion{
+    width: 230px;
+    height: auto;  
+    text-align: center; 
+}
+.garantia__informacion-logo{
+    margin-bottom: 7px;
+}
+.garantia__informacion-logo i{
+    font-size: 30px;
+}
+.garantia__informacion-titulo{
+    height: 35%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.garantia__informacion-descripcion{
+    color: #A7A7A7;
+    font-size: small;
+}
+/* FIN DE ESTILOS DE LA GARANTIA */
+
+/*INICIO DE ESTILOS DE PRODUCTOS  */
+.mercaderia{
+    grid-column: productos;
+    margin-top: 20px;
+}
+/*FIN DE ESTILOS DE PRODUCTOS  */
+/* INICIO DE ESTILOS DE PRODUCTOS MÁS VENDIDOS */
+.productos__masVendidos{
+    background-image: url('../../img/FONDO.jpg');  
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;     
+}
+.title-productosMasVendidos{
+    font-size: 20px;
+    padding: 10px;
+    line-height: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    border: 1px solid gray;
+    width: auto; 
+    height: auto;
+    margin-left: 10px;
+    text-align: center;
+    color: #021F54;
+    margin-bottom: 30px;
+} 
+.productos_masVendidos-items{
+    text-align: center;
+    width:200px;
+    height: 270px;
+}
+.productos__descripcion h3{
+    margin-top: 15px;
+    font-size:15px;
+    font-weight: bold;
+    color: #021F54;
+    line-height: 15px;
+    
+}
+/* FIN DE ESTILOS DE PRODUCTOS MÁS VENDIDOS */
+/* INICIO DE ESTILOS DE OFERTAS */
+.containerOfertas,.containerTelevisores,.containerRecomendado{
+    margin-bottom: 30px;
+}
+.title-productos{
+    text-transform: uppercase;
+    font-size: 25px;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    line-height: 45px;
+    color: white;
+    border: 3px solid #359FFF;
+    padding-left: 25px;
+    background: linear-gradient(100deg, black 75%, white);
+}
+.productosOfertas,.televisores,.recomendados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.productosOfertas__items, .televisores__items,.recomendados{
+    text-align: center;
+}
+.productos__informacion{
+    font-size: 13px;
+    color: black;
+    font-weight:600 ;
+}
+.precioAntiguo{
+    text-decoration: line-through;
+    font-weight: normal;
+}
+.precioOferta,.precioActual{
+    color:#f7440a;
+    font-weight:600;
+}
+.procentajeOferta{
+    background-color: red ;
+    color: white ;
+    margin-bottom: 15px;
+}
+
+.btn-ofertas{
+    font-size: 12px !important;
+    height: 40px !important;
+}
+.btn-verMas{
+    margin: 0 auto !important;
+    text-align: center !important;
+}
+/* FIN DE ESTILOS DE OFERTAS */
+/* INICIO DE ESTILOS A TELEVISORES */
+.televisores__items{
+    width: 350px;
+}
+/* FIN DE ESTILOS A TELEVISORES */
+
+.recomendados__items{
+    width: 200px;
+    margin: 13px 0;
+}
+
+
+@media(max-width:900px){
+    .contenedor{
+        grid-template-areas:"slider       slider      slider      slider       slider"
+                            "slider       slider      slider      slider       slider"
+                            "aside        aside       aside       aside        aside" 
+                            "garantia     garantia    garantia    garantia     garantia"
+                            "productos     productos    productos    productos     productos"
+;                 
+    }
+    .aside{
+        height: 120px;
+        grid-area: aside;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .aside div{
+        height: 100%;    
+    }
+    .productos{
+        grid-column: productos;
+    }
+    .productos__masVendidos{
+        height: 550px;
+    }
+    .productos_masVendidos-items{
+        width: 155px;
+    }
+    .btn-anadircarro{
+        line-height: normal !important;
+        width: auto !important;
+        height: 40px !important;
+        font-size: 15px !important;
+    }
+    .btn-ofertas{
+        font-size: 12px !important;
+        height: 40px !important;
+    }
+}
+@media(max-width:475px){
+    .garantia__informacion{
+        margin: 10px;
+        width: 40%;
+    }
+    .garantia__informacion-titulo{
+        font-size: 13px;
+    }
+    .garantia__informacion-descripcion{ 
+        display: none;
+    }
+    
+    .btn-anadircarro{
+        font-size: 12px !important;
+        height: 50px !important;
+    }
+    .televisores__items{
+        width: 290px;
+        margin: 10px 0px;
+    }
+    .productos__informacion{
+        font-size: 12px;
+    }
+    .recomendados__items{
+        width: 150px;
+        margin: 13px 0;
+        
+    }
+}

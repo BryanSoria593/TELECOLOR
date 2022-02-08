@@ -1,0 +1,26 @@
+
+#televisores  .televisores__items, #televisoresOfertas .productosOfertas__items{
+    margin: 13px 0;
+    line-height: 15px;
+}
+#televisoresOfertas .productosOfertas__items{
+    width: 350px;
+    
+}
+.televisores__items picture img , .productosOfertas__items picture img{
+    width: 200px;
+}
+@media(max-width:930px){
+    #televisores  .televisores__items{
+        width: 250px;    
+    }
+    #televisoresOfertas .productosOfertas__items{
+        width: 250px;   
+    }
+}
+@media(max-width:520px){
+    #televisores  .televisores__items{
+        width: 200px;    
+    }
+}
+

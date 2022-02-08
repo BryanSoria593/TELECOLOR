@@ -1,0 +1,124 @@
+.conta{
+    padding: 1%;
+    display: flex;
+    width: 100%;
+    
+    
+}
+
+.conta_user{
+	float: left;
+	text-align: center;
+	padding:5%;
+	height: 100%;
+	width: 30%;
+	border-style: solid;
+	border-color: 3px black;
+	background: #DED9D8;
+	
+}
+
+
+.conta_date{
+	float: left;
+	width: 70%;
+	height: 100%;
+		
+
+
+}
+
+.conta_user-avatar{
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+	background: blue;
+}
+
+
+.conta_user-username{
+	font-size: 150%;
+	margin-top: 14px;
+	width: 100%;
+	
+	
+}
+
+.conta_user-conbuton2{
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.conta_user-buton{
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 3px;
+    border: 2px solid #0016b0;
+  }
+  .conta_user-buton:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
+.conta_date-namelast{
+	padding: 0 10%;
+	display: inline-block;
+	width: 100%;
+}
+
+.conta_date-bloque1{
+	float:left;
+	padding: 1%;
+	width: 50%;
+	
+}
+.conta_date-bloque2{
+	float:left;
+	padding: 1%;
+	width: 50%;
+}
+
+.conta_date-bloque{
+	
+	padding:1% 11%;
+}
+.conta_date-bu{
+	text-align: center;
+	padding:2% 20%;
+}
+
+.contra_date-inputcor{
+	width: 100%;
+	border-style: solid;
+	border-color: black;
+}
+
+.contra_date-inputlar{
+	width: 49%;
+	border-style: solid;
+	border-color: black;
+}
+
+
+@media screen and (max-width: 480px){
+	.conta{
+	    
+	    display: inline-block;    
+	}
+
+	.conta_user{
+		float: left;
+		text-align: center;
+		width: 100%;	
+	}
+	
+	.conta_date{
+		float: left;
+		width: 100%;
+	}
+
+}

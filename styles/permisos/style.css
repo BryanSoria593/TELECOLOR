@@ -1,0 +1,73 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+.footer{
+  background-color: #45B97A;
+}
+i{
+  color: black;
+}
+/*INICIO DE ESTILOS DE BOTONES PARA INICIAR SESIÓN*/
+.btn-facebook:hover{
+  background-color: #0D8CF0;
+  color: white;
+
+}
+
+.btn-twitter:hover{
+  background-color: #1DA1F2;
+}
+
+.btn-linkedin:hover{
+  background-color: #026EA9;
+}
+
+.btn-google:hover{
+  background-color: #DE4032;
+}
+/*ESTILOS PARA LAS FUENTES*/
+.btn-facebook:hover i,
+.btn-twitter:hover i,
+.btn-linkedin:hover i,
+.btn-google:hover i
+{
+  color: white;
+  transform: scale(1.2,1.2);
+  -webkit-transform: scale(1.2,1.2);
+  -moz-transform: scale(1.2,1.2);
+  -ms-transform: scale(1.2,1.2);
+  -o-transform: scale(1.2,1.2);
+}
+a i:hover{
+  transform: scale(1.2,1.2);
+  -webkit-transform: scale(1.2,1.2);
+  -moz-transform: scale(1.2,1.2);
+  -ms-transform: scale(1.2,1.2);
+  -o-transform: scale(1.2,1.2);
+}
+/*FIN DE ESTILOS DE BOTONES PARA INICIAR SESIÓN*/
+.copy{
+  color: black !important;
+  font-weight: bold !important;
+
+}
+.login{
+  border: 1px solid blue;
+}
+.login:hover{
+  background-color: #1266f1;
+  color: white;
+}
+
+/*ESTILOS RESPONSIVOS*/
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }}

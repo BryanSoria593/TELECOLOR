@@ -1,0 +1,151 @@
+.contra{
+    padding: 1%;
+    display: inline-block;
+    width: 100%;
+
+    
+    
+}
+
+.edicion{
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-style: solid;
+    border-color: 1px black;
+    margin-bottom: 15px;
+}
+.edicion_perfil{
+    padding: 1%;
+    text-align: center;
+    display: flex;
+    width: 400px;
+    height: 150px;
+    
+}
+
+.edicion_perfil-logo{
+    width: 100px;
+    height: 100px;
+    float: left;
+    
+}
+.edicion_perfil-logo i{
+    font-size: 40px; 
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+   
+    
+}
+
+.edicion_perfil-contenido{
+    font-weight: bold;
+    float: left;
+    display: block;
+}
+.edicion_perfil-contenido p{
+    color: #A7A7A7;
+}
+
+.preguntas{
+    padding: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-style: solid;
+    border-color: 1px black;
+    margin-bottom: 15px;
+}
+
+
+.garantia{
+    grid-area: garantia;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1%;
+    
+
+}
+.garantia__informacion{
+    width: 250px;
+    height: auto;  
+    text-align: center;
+    
+}
+.garantia__informacion-logo{
+    margin-bottom: 7px;
+}
+.garantia__informacion-logo i{
+    font-size: 30px;
+}
+.garantia__informacion-titulo{
+    height: 35%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.garantia__informacion-descripcion{
+    color: #A7A7A7;
+}
+
+.preguntas_buscador{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.preguntas_opciones{
+    padding: 2%;
+}
+
+.preguntas_opciones-uno{
+    justify-content: center;
+
+    display: inline-block;
+    width: 100%;
+}
+
+.preguntas_opciones-dos{
+    
+    float: left;
+    padding: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 40%;
+}
+
+
+@media(max-width:1000px){
+    .preguntas_buscador{
+    margin-left: 12px;
+    margin-right: auto;
+    width: 60%;
+    }
+    
+    .preguntas_opciones-uno{
+    justify-content: center;
+
+    display: inline-block;
+    }
+
+    .preguntas_opciones-dos{
+
+    float: none;
+    width: 100%;
+    }
+
+    .logo-search{
+    border-left: 1px solid #ccc;
+    position: absolute;
+    margin-left: 60%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 4%;
+    height: 38px;
+    }
+    
+
+}
