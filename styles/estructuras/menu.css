@@ -15,7 +15,7 @@
     
 }
 .header__caja-logo{
-    display: grid;
+    display: flex;
     width: 180px;
     height: 100%;
     align-items: center;
@@ -117,6 +117,9 @@
 .nav ul li ul li:hover {
     background-color: #F6E05E; 
   } 
+.header__content-carrito a i{
+    color: white;
+}
 
 /*FIN DE LOSESTILOS DEL MENÚ DESPLEGABLE*/
 .form-control{
@@ -132,7 +135,7 @@
     border-left: 1px solid #ccc;
     position: absolute;
     margin-left: 28%;
-    display: grid;
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 4%;

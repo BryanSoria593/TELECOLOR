@@ -6,7 +6,7 @@
             <img class="header__caja-logotipo" src="../../img/LOGO.png" alt="Logotipo de electrónica telecolor">
             <img class="header__caja-logotipoCelular" src="../../img/LOGO2.png" alt="Logotipo de electrónica telecolor">
         </div>
-        
+
         <div class="header__content">
             <div class="header__content-info">
                 <div class="header__content-busqueda">
@@ -18,19 +18,36 @@
                     </div>
                 </div>
                 <div class="header__content-user">
-
                     <div class="header__content-usuario">
                         <i class="fas fa-user-circle"></i>
-                        <span>BRYAN SORIA</span>
+                        <div class="navbar navbar-expand-lg navbar-light">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="text-white nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Bryan Soria
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="../contenido/editarPerfil.php">Editar perfil</a></li>
+                                        <li><a class="dropdown-item" href="../contenido/cambiarContraseña.php">Cambiar contraseña</a></li>
+                                        <li><a class="dropdown-item" href="../contenido/retroAlimentacion.php">Déjanos un comentarios</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="../../login.php">Cerrar sesión</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="header__content-carrito">
-                        <i class="fas fa-shopping-cart"></i>
+                        <a href="../contenido/carrito.php"><i class="fas fa-shopping-cart"></i></a>
                     </div>
                 </div>
 
             </div>
             <nav class="nav">
                 <ul class="nav__listas">
+
                     <div class="close">
                         <div class="close__items">
                             <span>
@@ -45,6 +62,8 @@
                             <span>INICIO</span>
                         </a>
                     </li>
+                    
+                   
                     <li class="productos">
                         <a href="#">
                             <i class="fab fa-product-hunt"></i>
@@ -68,6 +87,8 @@
                             </li>
                         </ul>
                     </li>
+                    
+                    
                     <li>
                         <a href="../contenido/sobreNosotros.php">
                             <i class="fas fa-address-card"></i>
@@ -75,17 +96,14 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="fas fa-gift"></i>
-                            <span>PROMOCIONES</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="../contenido/retroAlimentacion.php">
+                        <a href="../contenido/contactos.php">
                             <i class="fas fa-phone-square"></i>
                             <span>CONTACTOS</span>
                         </a>
                     </li>
+                    
+                    
+                    
 
                 </ul>
 

@@ -7,7 +7,6 @@
     width: 100% !important;
 }
 .bx-wrapper{  
-    background-color: aqua;
     border: none !important; 
     margin-bottom: 38px !important;
 }
@@ -146,6 +145,7 @@
     text-align: center;
     width:200px;
     height: 270px;
+    margin: 20px 0;
 }
 .productos__descripcion h3{
     margin-top: 15px;
@@ -157,9 +157,11 @@
 }
 /* FIN DE ESTILOS DE PRODUCTOS MÁS VENDIDOS */
 /* INICIO DE ESTILOS DE OFERTAS */
-.containerOfertas,.containerTelevisores,.containerRecomendado{
-    margin-bottom: 30px;
+.containerOfertas{
+    margin-bottom: 90px;
 }
+
+
 .title-productos{
     text-transform: uppercase;
     font-size: 25px;
@@ -176,6 +178,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+.productosOfertas__items{
+    
+    width: 150px;
 }
 .productosOfertas__items, .televisores__items,.recomendados{
     text-align: center;
@@ -199,15 +205,8 @@
     margin-bottom: 15px;
 }
 
-.btn-ofertas{
-    font-size: 12px !important;
-    height: 40px !important;
-}
-.btn-verMas{
-    margin: 0 auto !important;
-    text-align: center !important;
-}
-/* FIN DE ESTILOS DE OFERTAS */
+
+
 /* INICIO DE ESTILOS A TELEVISORES */
 .televisores__items{
     width: 350px;
@@ -218,7 +217,38 @@
     width: 200px;
     margin: 13px 0;
 }
+/*INICIO DE ESTILOS DE BOTONES */
+.botonesProductos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-verDetalles,.btn-anadircarro{
+    width: 135px !important;
+}
+.btn-verDetalles{
+    background-color: #00539F !important;
+    color: white !important;
+}
+.btn-anadircarro{
 
+    color: black !important;
+    background-color: #FFF100 !important;
+}
+.btn-verDetalles,.btn-anadircarro{
+    border: initial !important;
+    margin: 3px 0;
+    width: 50%;
+    font-size: 11px !important;
+    height: 40px !important;
+    border-radius: 60px !important;
+    -webkit-border-radius: 60px !important;
+    -moz-border-radius: 60px !important;
+    -ms-border-radius: 60px !important;
+    -o-border-radius: 60px !important;
+}
+
+/*FIN DE ESTILOS DE BOTONES */
 
 @media(max-width:900px){
     .contenedor{
@@ -248,18 +278,8 @@
     .productos_masVendidos-items{
         width: 155px;
     }
-    .btn-anadircarro{
-        line-height: normal !important;
-        width: auto !important;
-        height: 40px !important;
-        font-size: 15px !important;
-    }
-    .btn-ofertas{
-        font-size: 12px !important;
-        height: 40px !important;
-    }
 }
-@media(max-width:475px){
+@media(max-width:480px){
     .garantia__informacion{
         margin: 10px;
         width: 40%;
@@ -271,10 +291,7 @@
         display: none;
     }
     
-    .btn-anadircarro{
-        font-size: 12px !important;
-        height: 50px !important;
-    }
+     
     .televisores__items{
         width: 290px;
         margin: 10px 0px;
@@ -286,5 +303,8 @@
         width: 150px;
         margin: 13px 0;
         
+    }
+    .containerMasVendidos{
+        margin-bottom: 90px;
     }
 }

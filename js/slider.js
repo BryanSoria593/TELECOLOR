@@ -1,4 +1,4 @@
-$(document).ready(function (params) {
+$(document).ready(function () {
     $('.slider').bxSlider({
       mode: 'fade',
       auto: true,

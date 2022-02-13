@@ -5,12 +5,12 @@
                 <p>Menú</p>
             </div>
             <ul class="menu">
-                <li><a href="#">INICIO</a></li>
-                <li><a href="#">TELEVISORES</a></li>
-                <li><a href="#">CELULARES</a></li>
-                <li><a href="#">NOSOTROS</a></li>
-                <li><a href="#">PROMOCIONES</a></li>
-                <li><a href="#">CONTACTOS</a></li>
+                <li><a href="../contenido/inicio.php">INICIO</a></li>
+                <li><a href="../contenido/televisores.php">TELEVISORES</a></li>
+                <li><a href="../contenido/celulares.php">CELULARES</a></li>
+                <li><a href="../contenido/sobreNosotros.php">NOSOTROS</a></li>
+                <li><a href="../contenido/promociones.php">PROMOCIONES</a></li>
+                <li><a href="../contenido/contactos.php">CONTACTOS</a></li>
             </ul>
         </div>
         <div class="location">
@@ -26,11 +26,12 @@
                     <p>Redes sociales:</p>
                 </div>
                 <ul>
-                    <li><i class="fab fa-facebook"></i></li>
+                    <li><a href="https://www.facebook.com/ElectronicaDigital.Telecolor" target="_blank"><i class="fab fa-facebook"></i></a></li>
                     <li><i class="fab fa-tiktok"></i></li>
 
                     <li><i class="fab fa-instagram"></i></li>
-                    <li><i class="fab fa-whatsapp"></i></li>
+                    
+                    <li><a href="https://wa.me/0981729780"  target="_blank"><i class="fab fa-whatsapp"></i></a></li>
                 </ul>
             </div>
             <div class="content__info-copyrigth">

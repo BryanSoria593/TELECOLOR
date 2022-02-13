@@ -1,3 +1,7 @@
+*{
+    z-index: 1000;
+}
+
 .div__msg{
     margin: 0 auto;
     background-color: white;
@@ -48,6 +52,9 @@
     -moz-transition: all .5s;
     -ms-transition: all .5s;
     -o-transition: all .5s;
+}
+ul li a{
+    color: white;
 }
 .content__info-redes{
     height: 50%;

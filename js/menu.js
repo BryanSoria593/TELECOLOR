@@ -1,17 +1,17 @@
-$(document).ready(function () {
+$(document).ready(function ()  {
     
-    $('.icon').click(function (params) {
+    $('.icon').click(function () {
         $('.nav').show();
     })
 
-    $('.close').click(function (params) {
+    $('.close').click(function () {
         $('.nav').hide();
     })
 
     /*MENÚ CELULAR */
     
     //INICIO DE MOSTRAR Y OCULTAR EL MENÚ RESPONSIVO CUANDO EL USUARIO CAMBIE DE RESOLUCIÓN DE PANTALLA
-    $(window).resize(function (params) {
+    $(window).resize(function () {
         if ($(document).width()>890) {
             $('.nav').css('display','block');
             $('.nav ul li ul').css('display','block');
@@ -40,16 +40,16 @@ $(document).ready(function () {
 
 
     //INICIO DE REDIRIGIR A UNA PÁGINA CUANDO EL USUARIO DE CLICK SOBRE UN ELEMENTO <a></a>
-    $('.nav__listas ul li a').click(function (params) {
+    $('.nav__listas ul li a').click(function () {
         window.location.href = $(this).attr('href');
-        return params;
+       
     });
     //FIN DE REDIRIGIR A UNA PÁGINA CUANDO EL USUARIO DE CLICK SOBRE UN ELEMENTO <a></a> 
 
     
-    function desplegarSublista(params) {
+    function desplegarSublista() {
         
-        let contenido = $('.nav__listas li:has(ul)');
+        const contenido = $('.nav__listas li:has(ul)');
         if (contenido.hasClass('activado')) {
             
             contenido.removeClass('activado');
@@ -71,7 +71,6 @@ $(document).ready(function () {
             $('.iconoFlechaAbajo').css('display','none');
             
         }
-        return params;
     }
 
     //FIN DE MENÚ CELULAR

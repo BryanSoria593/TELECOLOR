@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,7 @@
 
     <?php require('../layouts/head.php') ?>
 
-    <title>Telecolor</title>
+    <title>Telecolor-Celulares</title>
 </head>
 
 <body>
@@ -26,139 +26,181 @@
     <div class="contenedor">
         <!-- INICIO DE MERCADERÍA -->
         <section class="mercaderia">
-            
-            <!-- INICIO DE TELEVISORES -->
-            
-            <section class="containerTelevisores">
-                <h2 class="title-productos">Nuevos Celulares</h2>
-                <div class="televisores">   
-                    <div class="televisores__items">
-                        <picture>
-                            <img src="../../img/televisores/televisor.jpg" alt="Imágen de TV SAMSUNG 55''">
-                        </picture>
-                        <div class="productos__descripcion">
-                            <h3>SAMSUNG - SMART TV 4K 55''</h3>
-                            <p class="productos__informacion">QLED | 4K | 120Hz</p>
-                            <p class="precioOferta">$880</p>
-                        </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
-                    </div>
-                    <div class="televisores__items">
-                        <picture>
-                            <img src="../../img/televisores/televisor2.jpg" alt="Imágen de TV BOX TV SAMSUNG 60''">
-                        </picture>
-                        <div class="productos__descripcion">
-                            <h3>SAMSUNG - SMART TV 4K 60''</h3>
-                            <p class="productos__informacion">DUAL LED | 4K | 60Hz</p>
-                            <p class="precioOferta">$1200</p>
-                        </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
-                    </div>
-                    <div class="televisores__items">
-                        <picture>
-                            <img src="../../img/televisores/televisor3.jpg" alt="Imágen de TV ROKU">
-                        </picture>
-                        <div class="productos__descripcion">
-                            <h3>ROKU STREAMING</h3>
-                            <p class="productos__informacion">led | 4K | HDR</p>
-                            <p class="precioOferta">$710</p>
-                        </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
-                    </div>               
-                </div>
-                
-                
-            </section>
-            <!-- FIN DE TELEVISORES -->
+
+            <!-- INICIO DE CELULARES -->
             <!-- INICIO DE ARTICULOS EN OFERTAS -->
             <section class="containerOfertas">
                 <h2 class="title-productos">Ofertas</h2>
-                <div class="productosOfertas">   
+                <div class="productosOfertas" id="celularesOfertas">
                     <div class="productosOfertas__items">
                         <picture>
-                            <img src="../../img/ofertas/tvbox.png" alt="Imágen de TV BOX">
+                            <img src="../../img/celulares/celular1.jpg" alt="Imágen de TV BOX">
                         </picture>
                         <div class="productos__descripcion">
-                            <h3>ROKU STREAMING</h3>
-                            <p class="productos__informacion">HD | 4K | HDR</p>
-                            <p class="precioAntiguo">$49.99</p>
-                            <p class="precioOferta">$29.98</p>
-                            <span class="badge procentajeOferta"> -40%</span>
-                        </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
-                    </div>
-                    <div class="productosOfertas__items">
-                        <picture>
-                            <img src="../../img/ofertas/camara.png" alt="Imágen de cámara">
-                        </picture>
-                        <div class="productos__descripcion">
-                            <h3>CÁMARA WEB</h3>
-                            <p class="productos__informacion">1080P | MICRÓFONO </p>
-                            <p class="precioAntiguo">$49.99</p>
-                            <p class="precioOferta">$16.00</p>
-                            <span class="badge procentajeOferta"> -32%</span>
-                        </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
-                    </div>
-                    <div class="productosOfertas__items">
-                        <picture>
-                            <img src="../../img/ofertas/pantalla.png" alt="Imágen de pantalla">
-                        </picture>
-                        <div class="productos__descripcion">
-                            <h3>MONITOR PORTÁTIL</h3>
-                            <p class="productos__informacion">HDMI | 1080 FHD</p>
-                            <p class="precioAntiguo">$159.99</p>
-                            <p class="precioOferta">$135.99</p>
-                            <span class="badge procentajeOferta"> -15%</span>
-                        </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
-                    </div>
-                    <div class="productosOfertas__items">
-                        <picture>
-                            <img src="../../img/ofertas/soporte.png" alt="Imágen de soporte para tv">
-                        </picture>
-                        <div class="productos__descripcion">
-                            <h3>Mounting Dream</h3>
-                            <p class="productos__informacion">APTO PARA 26''-55''</p>
-                            <p class="precioAntiguo">$29.99</p>
-                            <p class="precioOferta">$25.49</p>
-                            <span class="badge procentajeOferta"> -15%</span>
-                        </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
-                    </div>
-                    <div class="productosOfertas__items">
-                        <picture>
-                            <img src="../../img/ofertas/tplink.png" alt="Imágen de router">
-                        </picture>
-                        <div class="productos__descripcion">
-                            <h3>TP-Link AC1750</h3>
-                            <p class="productos__informacion">5 GHz | ALEXA | QoS </p>
-                            <p class="precioAntiguo">$79.99</p>
-                            <p class="precioOferta">$53.99</p>
+                            <h3>SAMSUNG GALAXY A10e</h3>
+                            <p class="productos__informacion">32 GB ROM | 2 GB RAM | NEGRO</p>
+                            <p class="precioAntiguo">$169.99</p>
+                            <p class="precioOferta">$112.43</p>
                             <span class="badge procentajeOferta"> -33%</span>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="productosOfertas__items">
                         <picture>
-                            <img src="../../img/ofertas/microfono.png" alt="Imágen de TV BOX">
+                            <img src="../../img/celulares/celular2.jpg" alt="Imágen de cámara">
                         </picture>
                         <div class="productos__descripcion">
-                            <h3>MICRÓFONO TONOR</h3>
-                            <p class="productos__informacion">ZOOM | SKYPE | TEAMS</p>
-                            <p class="precioAntiguo">$49.99</p>
-                            <p class="precioOferta">$33.99</p>
-                            <span class="badge procentajeOferta"> -32%</span>
+                            <h3>SAMSUNG GALAXY S20 </h3>
+                            <p class="productos__informacion">128 GB ROM | 6 GB RAM | 5G </p>
+                            <p class="precioAntiguo">$699.99</p>
+                            <p class="precioOferta">$599.99</p>
+                            <span class="badge procentajeOferta"> -29%</span>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
-                    
+                    <div class="productosOfertas__items">
+                        <picture>
+                            <img src="../../img/celulares/celular3.jpg" alt="Imágen de pantalla">
+                        </picture>
+                        <div class="productos__descripcion">
+                            <h3>REDMI NOTE 9 PRO</h3>
+                            <p class="productos__informacion">128 GB ROM | 6 RAM</p>
+                            <p class="precioAntiguo">$294.00</p>
+                            <p class="precioOferta">$254.99</p>
+                            <span class="badge procentajeOferta">-14%</span>
+                        </div>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                    <div class="productosOfertas__items">
+                        <picture>
+                            <img src="../../img/celulares/celular11.jpg" alt="Imágen de TV BOX">
+                        </picture>
+                        <div class="productos__descripcion">
+                            <h3>IPHONE 12 PRO MAX</h3>
+                            <p class="productos__informacion">128 GB ROM</p>
+                            <p class="precioAntiguo">$1064.00</p>
+                            <p class="precioOferta">$969</p>
+                            <span class="badge procentajeOferta"> -8%</span>
+                        </div>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                    <div class="productosOfertas__items">
+                        <picture>
+                            <img src="../../img/celulares/celular6.jpg" alt="Imágen de router">
+                        </picture>
+                        <div class="productos__descripcion">
+                            <h3>REDMI 10</h3>
+                            <p class="productos__informacion">64 GB ROM | 4 GB RAM | GRIS CARBÓN </p>
+                            <p class="precioAntiguo">$220.00</p>
+                            <p class="precioOferta">$200.00</p>
+                            <span class="badge procentajeOferta"> -10%</span>
+                        </div>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                    <div class="productosOfertas__items">
+                        <picture>
+                            <img src="../../img/celulares/celular7.jpg" alt="Imágen de TV BOX">
+                        </picture>
+                        <div class="productos__descripcion">
+                            <h3>XIAOMI MI 11i</h3>
+                            <p class="productos__informacion">128 GB ROM | 8 GB RAM | CÓSMICO NEGRO</p>
+                            <p class="precioAntiguo">$620.00</p>
+                            <p class="precioOferta">$600.00</p>
+                            <span class="badge procentajeOferta"> -10%</span>
+                        </div>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
                 </div>
-                
-                
             </section>
             <!-- FIN DE ARTICULOS EN OFERTAS -->
-            
+            <section class="containerTelevisores">
+                <h2 class="title-productos">Nuevos Celulares</h2>
+                <div class="televisores">
+                    <div class="televisores__items">
+                        <picture>
+                            <img src="../../img/celulares/celular8.jpg" alt="Imágen de TV SAMSUNG 55''">
+                        </picture>
+                        <div class="productos__descripcion">
+                            <h3>XIAOMI POCO X3</h3>
+                            <p class="productos__informacion"> 128 GB ROM | 6 GB RAM</p>
+                            <p class="precioOferta">$209.50</p>
+                        </div>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                    <div class="televisores__items">
+                        <picture>
+                            <img src="../../img/celulares/celular9.jpg" alt="Imágen de TV BOX TV SAMSUNG 60''">
+                        </picture>
+                        <div class="productos__descripcion">
+                            <h3>POCO F4 5G</h3>
+                            <p class="productos__informacion">256 GB ROM | 8 GB RAM</p>
+                            <p class="precioOferta">$378.15</p>
+                        </div>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                    <div class="televisores__items">
+                        <picture>
+                            <img src="../../img/celulares/celular10.jpg" alt="Imágen de TV ROKU">
+                        </picture>
+                        <div class="productos__descripcion">
+                            <h3>IPHONE 11 PRO</h3>
+                            <p class="productos__informacion">64 GB ROM | 4 GB RAM</p>
+                            <p class="precioOferta">$465.00</p>
+                        </div>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+            <!-- FIN DE CELULARES -->
+
+
         </section>
         <!-- FIN DE MERCADERÍA -->
     </div>

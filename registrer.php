@@ -12,7 +12,7 @@
   <script type="text/javascript" src="js/previewAvatar.js"></script>
   <link rel="stylesheet" href="styles/permisos/style.css">
   <link rel="stylesheet" href="fontawesome/css/all.min.css">
-  <title>Document</title>
+  <title>Registrar</title>
 
 </head>
 <body>

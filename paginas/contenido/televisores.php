@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,7 @@
 
     <?php require('../layouts/head.php') ?>
 
-    <title>Telecolor</title>
+    <title>Telecolor - televisores</title>
 </head>
 
 <body>
@@ -24,81 +24,8 @@
     <div class="contenedor">
         <!-- INICIO DE MERCADERÍA -->
         <section class="mercaderia">
-            <!-- INICIO DE TELEVISORES -->
-            <section class="containerTelevisores">
-                <h2 class="title-productos">Nuevos televisores</h2>
-                <div id="televisores" class="televisores">
-                    <div class="televisores__items">
-                        <picture>
-                            <img src="../../img/televisores/televisor.jpg" alt="Imágen de TV SAMSUNG 55''">
-                        </picture>
-                        <div class="productos__descripcion">
-                            <h3>SAMSUNG - SMART TV 4K 55''</h3>
-                            <p class="productos__informacion">QLED | 4K | 120Hz</p>
-                            <p class="precioOferta">$880</p>
-                        </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
-                    </div>
-                    <div class="televisores__items">
-                        <picture>
-                            <img src="../../img/televisores/televisor2.jpg" alt="Imágen de TV BOX TV SAMSUNG 60''">
-                        </picture>
-                        <div class="productos__descripcion">
-                            <h3>SAMSUNG - SMART TV 4K 60''</h3>
-                            <p class="productos__informacion">DUAL LED | 4K | 60Hz</p>
-                            <p class="precioOferta">$1200</p>
-                        </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
-                    </div>
-                    <div class="televisores__items">
-                        <picture>
-                            <img src="../../img/televisores/televisor3.jpg" alt="Imágen de TV ROKU">
-                        </picture>
-                        <div class="productos__descripcion">
-                            <h3>ROKU STREAMING</h3>
-                            <p class="productos__informacion">led | 4K | HDR</p>
-                            <p class="precioOferta">$710</p>
-                        </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
-                    </div>
-                    <div class="televisores__items">
-                        <picture>
-                            <img src="../../img/televisores/televisor4.jpg" alt="Imágen de TV SAMSUNG 55''">
-                        </picture>
-                        <div class="productos__descripcion">
-                            <h3>SAMSUNG - SMART TV 4K 55''</h3>
-                            <p class="productos__informacion">QLED | 4K | 120Hz</p>
-                            <p class="precioOferta">$880</p>
-                        </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
-                    </div>
-                    <div class="televisores__items">
-                        <picture>
-                            <img src="../../img/televisores/televisor5.jpg" alt="Imágen de TV BOX TV SAMSUNG 60''">
-                        </picture>
-                        <div class="productos__descripcion">
-                            <h3>SAMSUNG - SMART TV 4K 60''</h3>
-                            <p class="productos__informacion">DUAL LED | 4K | 60Hz</p>
-                            <p class="precioOferta">$1200</p>
-                        </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
-                    </div>
-                    <div class="televisores__items">
-                        <picture>
-                            <img src="../../img/televisores/televisor6.jpg" alt="Imágen de TV ROKU">
-                        </picture>
-                        <div class="productos__descripcion">
-                            <h3>ROKU STREAMING</h3>
-                            <p class="productos__informacion">led | 4K | HDR</p>
-                            <p class="precioOferta">$710</p>
-                        </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
-                    </div>
-                </div>
-            </section>
-            <!-- FIN DE TELEVISORES -->
-            <!-- INICIO DE ARTICULOS EN OFERTAS -->
-            <section class="containerOfertas">
+             <!-- INICIO DE ARTICULOS EN OFERTAS -->
+             <section class="containerOfertas">
                 <h2 class="title-productos">Ofertas</h2>
                 <div class="productosOfertas" id="televisoresOfertas">
                     <div class="productosOfertas__items">
@@ -112,7 +39,13 @@
                             <p class="precioOferta">$460.99</p>
                             <span class="badge procentajeOferta"> -$27</span>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
+                        
                     </div>
                     <div class="productosOfertas__items">
                         <picture>
@@ -125,7 +58,12 @@
                             <p class="precioOferta">$260.99</p>
                             <span class="badge procentajeOferta"> -$20</span>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="productosOfertas__items">
                         <picture>
@@ -138,7 +76,12 @@
                             <p class="precioOferta">$169.99</p>
                             <span class="badge procentajeOferta"> -$11</span>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="productosOfertas__items">
                         <picture>
@@ -151,7 +94,12 @@
                             <p class="precioOferta">$417.99</p>
                             <span class="badge procentajeOferta"> -$23</span>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="productosOfertas__items">
                         <picture>
@@ -164,7 +112,12 @@
                             <p class="precioOferta">$399.99</p>
                             <span class="badge procentajeOferta"> -$21</span>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="productosOfertas__items">
                         <picture>
@@ -177,16 +130,120 @@
                             <p class="precioOferta">$647.99</p>
                             <span class="badge procentajeOferta"> -$43</span>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
-
-
-
                 </div>
-
-
             </section>
             <!-- FIN DE ARTICULOS EN OFERTAS -->
+            <!-- INICIO DE TELEVISORES -->
+            <section class="containerTelevisores">
+                <h2 class="title-productos">Nuevos televisores</h2>
+                <div id="televisores" class="televisores">
+                    <div class="televisores__items">
+                        <picture>
+                            <img src="../../img/televisores/televisor.jpg" alt="Imágen de TV SAMSUNG 55''">
+                        </picture>
+                        <div class="productos__descripcion">
+                            <h3>SAMSUNG - SMART TV 4K 55''</h3>
+                            <p class="productos__informacion">QLED | 4K | 120Hz</p>
+                            <p class="precioOferta">$880</p>
+                        </div>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                    <div class="televisores__items">
+                        <picture>
+                            <img src="../../img/televisores/televisor2.jpg" alt="Imágen de TV BOX TV SAMSUNG 60''">
+                        </picture>
+                        <div class="productos__descripcion">
+                            <h3>SAMSUNG - SMART TV 4K 60''</h3>
+                            <p class="productos__informacion">DUAL LED | 4K | 60Hz</p>
+                            <p class="precioOferta">$1200</p>
+                        </div>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                    <div class="televisores__items">
+                        <picture>
+                            <img src="../../img/televisores/televisor3.jpg" alt="Imágen de TV ROKU">
+                        </picture>
+                        <div class="productos__descripcion">
+                            <h3>ROKU STREAMING</h3>
+                            <p class="productos__informacion">led | 4K | HDR</p>
+                            <p class="precioOferta">$710</p>
+                        </div>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                    <div class="televisores__items">
+                        <picture>
+                            <img src="../../img/televisores/televisor4.jpg" alt="Imágen de TV SAMSUNG 55''">
+                        </picture>
+                        <div class="productos__descripcion">
+                            <h3>SAMSUNG - SMART TV 4K 55''</h3>
+                            <p class="productos__informacion">QLED | 4K | 120Hz</p>
+                            <p class="precioOferta">$880</p>
+                        </div>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                    <div class="televisores__items">
+                        <picture>
+                            <img src="../../img/televisores/televisor5.jpg" alt="Imágen de TV BOX TV SAMSUNG 60''">
+                        </picture>
+                        <div class="productos__descripcion">
+                            <h3>SAMSUNG - SMART TV 4K 60''</h3>
+                            <p class="productos__informacion">DUAL LED | 4K | 60Hz</p>
+                            <p class="precioOferta">$1200</p>
+                        </div>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                    <div class="televisores__items">
+                        <picture>
+                            <img src="../../img/televisores/televisor6.jpg" alt="Imágen de TV ROKU">
+                        </picture>
+                        <div class="productos__descripcion">
+                            <h3>ROKU STREAMING</h3>
+                            <p class="productos__informacion">led | 4K | HDR</p>
+                            <p class="precioOferta">$710</p>
+                        </div>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- FIN DE TELEVISORES -->
+           
 
         </section>
         <!-- FIN DE MERCADERÍA -->

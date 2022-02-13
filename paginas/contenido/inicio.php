@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,13 +8,11 @@
 
     <link rel="stylesheet" href="../../styles/paginas/inicio.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-
+    
+    <?php require('../layouts/head.php') ?>
     <script src="../../js/slider.js"></script>
 
 
-    <?php require('../layouts/head.php') ?>
 
     <title>Telecolor</title>
 </head>
@@ -149,7 +147,12 @@
                             <p class="productos__informacion">1 TB</p>
                             <p class="precioActual">$300</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="productos_masVendidos-items">
                         <picture>
@@ -160,7 +163,12 @@
                             <p class="productos__informacion">ANDROID TV</p>
                             <p class="precioActual">$530</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="productos_masVendidos-items">
                         <picture>
@@ -171,7 +179,12 @@
                             <p class="productos__informacion">CORREA ADICIONAL</p>
                             <p class="precioActual">$55</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -190,7 +203,12 @@
                             <p class="precioOferta">$29.98</p>
                             <span class="badge procentajeOferta"> -40%</span>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="productosOfertas__items">
                         <picture>
@@ -203,20 +221,30 @@
                             <p class="precioOferta">$16.00</p>
                             <span class="badge procentajeOferta"> -32%</span>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="productosOfertas__items">
                         <picture>
                             <img src="../../img/ofertas/pantalla.png" alt="Imágen de pantalla">
                         </picture>
                         <div class="productos__descripcion">
-                            <h3>MONITOR PORTÁTIL</h3>
+                            <h3>MONITOR</h3>
                             <p class="productos__informacion">HDMI | 1080 FHD</p>
                             <p class="precioAntiguo">$159.99</p>
                             <p class="precioOferta">$135.99</p>
                             <span class="badge procentajeOferta"> -15%</span>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="productosOfertas__items">
                         <picture>
@@ -229,7 +257,12 @@
                             <p class="precioOferta">$25.49</p>
                             <span class="badge procentajeOferta"> -15%</span>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="productosOfertas__items">
                         <picture>
@@ -242,20 +275,30 @@
                             <p class="precioOferta">$53.99</p>
                             <span class="badge procentajeOferta"> -33%</span>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="productosOfertas__items">
                         <picture>
                             <img src="../../img/ofertas/microfono.png" alt="Imágen de TV BOX">
                         </picture>
                         <div class="productos__descripcion">
-                            <h3>MICRÓFONO TONOR</h3>
+                            <h3>MICRÓFONO</h3>
                             <p class="productos__informacion">ZOOM | SKYPE | TEAMS</p>
                             <p class="precioAntiguo">$49.99</p>
                             <p class="precioOferta">$33.99</p>
                             <span class="badge procentajeOferta"> -32%</span>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     
                 </div>
@@ -276,7 +319,12 @@
                             <p class="productos__informacion">QLED | 4K | 120Hz</p>
                             <p class="precioOferta">$880</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="televisores__items">
                         <picture>
@@ -287,7 +335,12 @@
                             <p class="productos__informacion">DUAL LED | 4K | 60Hz</p>
                             <p class="precioOferta">$1200</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="televisores__items">
                         <picture>
@@ -298,7 +351,12 @@
                             <p class="productos__informacion">led | 4K | HDR</p>
                             <p class="precioOferta">$710</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     
                 </div>
@@ -320,7 +378,12 @@
                             <p class="productos__informacion">10'' | LED </p>
                             <p class="precioOferta">$33.99</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="recomendados__items">
                         <picture>
@@ -331,7 +394,12 @@
                             <p class="productos__informacion">PREMIUM EDITION | PS4 </p>
                             <p class="precioOferta">$14.99</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="recomendados__items">
                         <picture>
@@ -342,7 +410,12 @@
                             <p class="productos__informacion">PS5</p>
                             <p class="precioOferta">$39.99</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="recomendados__items">
                         <picture>
@@ -353,7 +426,12 @@
                             <p class="productos__informacion">COLOR NEGRO | 55 INCH</p>
                             <p class="precioOferta">$184.99</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="recomendados__items">
                         <picture>
@@ -364,7 +442,12 @@
                             <p class="productos__informacion">COLOR NEGRO | 60 INCH</p>
                             <p class="precioOferta">$199.99</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="recomendados__items">
                         <picture>
@@ -375,7 +458,12 @@
                             <p class="productos__informacion">RECLINABLE | REPOSAPIÉS</p>
                             <p class="precioOferta">$186.46</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="recomendados__items">
                         <picture>
@@ -386,7 +474,12 @@
                             <p class="productos__informacion">1 CÁMARA | 1080P | WIFI</p>
                             <p class="precioOferta">$39.99</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="recomendados__items">
                         <picture>
@@ -397,7 +490,12 @@
                             <p class="productos__informacion">128 GB | COLOR AZUL</p>
                             <p class="precioOferta">$859.00</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="recomendados__items">
                         <picture>
@@ -408,7 +506,12 @@
                             <p class="productos__informacion">13.3'' | Ryzen 7 5700U</p>
                             <p class="precioOferta">$926.80</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="recomendados__items">
                         <picture>
@@ -419,7 +522,12 @@
                             <p class="productos__informacion">RAINBOW | 87 TECLAS</p>
                             <p class="precioOferta">$34.99</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="recomendados__items">
                         <picture>
@@ -430,7 +538,12 @@
                             <p class="productos__informacion">INALÁMBRICO | BLANCO</p>
                             <p class="precioOferta">$100</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     <div class="recomendados__items">
                         <picture>
@@ -441,7 +554,12 @@
                             <p class="productos__informacion">FUENTE AC | 110 V</p>
                             <p class="precioOferta">$26.99</p>
                         </div>
-                        <button type="button" class="btn btn-success btn-anadircarro btn-ofertas">AÑADIR AL CARRITO</button>
+                        <div class="botonesProductos">
+                            <a href="../contenido/detalles.php">
+                                <button type="button" class="btn btn-info btn-verDetalles">VER DETALLES</button>
+                            </a>
+                            <button type="button" class="btn btn-success btn-anadircarro ">AÑADIR AL CARRITO</button>
+                        </div>
                     </div>
                     
                     
@@ -456,24 +574,7 @@
 
 
 
-        <!-- INICIO DE LA SECTION QUE MOSTRARÁ LAS GARANTÍAS -->
-
-        <!-- FIN DE LA SECTION QUE MOSTRARÁ LAS GARANTÍAS -->
-        <!-- FIN DEL ASIDE -->
-        <!-- <div class="anuncios">
-            <div class="anuncions__img">
-                <img src="../../img/anuncios/camara.png" alt="Cámara de seguridad">
-            </div>
-            <div class="anuncions__img">
-                <img src="../../img/anuncios/varios.png" alt="Varios productos">
-            </div>
-            <div class="anuncions__img">
-                <img src="../../img/anuncios/laptop.png" alt="Descuento de laptop">
-            </div>
-            <div class="anuncions__img">
-                <img src="../../img/anuncios/iphone.png" alt="Descuento de Iphone">
-            </div>
-        </div> -->
+        <?php require('../contenido/asistente.php') ?>
 
 
     </div>
